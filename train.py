@@ -333,3 +333,4 @@ if __name__ == '__main__':
         dist.finalize()
         if isinstance(sys.stdout, misc.SyncPrint) and isinstance(sys.stderr, misc.SyncPrint):
             sys.stdout.close(), sys.stderr.close()
+
